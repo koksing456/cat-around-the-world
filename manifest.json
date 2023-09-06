@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Cat Around The World",
+    "description": "See a new cultural cat every time you open a new tab",
+    "version": "0.0.0.1",
+    "icons": {
+        "128": "images/american-cat.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
